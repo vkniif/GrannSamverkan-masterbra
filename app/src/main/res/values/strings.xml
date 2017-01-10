@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GrannSamverkan</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NÄSTA</string>
+    <string name="skip">SKIP</string>
+    <string name="start">LOGGA IN</string>
+
+    <string name="slide_1_title">Välkommen!</string>
+    <string name="slide_1_desc">Det nya fräscha sättet att föra grannsamverkan online!</string>
+
+    <string name="slide_2_title">Grannsamverkan online</string>
+    <string name="slide_2_desc">Med hjälp av ett enkelt knapptryck kan du rapportera in aktivitet till dina grannar!</string>
+
+    <string name="slide_3_title">Enkel och till för alla</string>
+    <string name="slide_3_desc">Inga svåra inställningar, alla kan bli en del av GrannSamverkan!</string>
+
+    <string name="slide_4_title">Gör det svårt för tjuven</string>
+    <string name="slide_4_desc">Det absolut bästa sättet att hindra brott är att hjälpas åt!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
