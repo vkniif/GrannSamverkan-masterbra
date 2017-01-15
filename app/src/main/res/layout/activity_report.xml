@@ -11,15 +11,6 @@
     tools:context="kniif.grannsamverkan.ReportActivity">
 
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@android:color/black"
-        android:id="@+id/view"
-        android:layout_below="@+id/Beskrivning"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="73dp" />
-
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,19 +18,6 @@
         android:theme="?attr/actionBarTheme"
         android:minHeight="?attr/actionBarSize"
         android:id="@+id/toolbar" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/Beskrivning"
-        android:hint="Beskrivning"
-        android:layout_marginTop="19dp"
-        android:layout_below="@+id/toolbar"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
-
 
 
     <TextView
@@ -77,5 +55,35 @@
         android:layout_marginTop="21dp"
         android:layout_below="@+id/lblRateMe"
         android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/beskrivning"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/txtRatingValue"
+        android:hint="Beskriv ditt problem" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:id="@+id/view"
+        android:layout_below="@+id/beskrivning"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myLocationText"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/ratingBar"
+        android:layout_toEndOf="@+id/txtRatingValue" />
 
 </RelativeLayout>
