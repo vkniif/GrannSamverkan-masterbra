@@ -23,11 +23,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_welcome"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme.Dark" />
         <activity android:name=".ReportActivity" />
-        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignupActivity" android:theme="@style/AppTheme.Dark"></activity>
     </application>
 
 </manifest>
